@@ -1,0 +1,29 @@
+{
+  "name": "tabs-route",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "umi dev ",
+    "watch": "webpack-dev-server --config node_modules/ak-webpack/src/config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lusess123/tabs-route.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lusess123/tabs-route/issues"
+  },
+  "homepage": "https://github.com/lusess123/tabs-route#readme",
+  "devDependencies": {
+    "ak-webpack": "git+ssh://git@github.com/lusess123/ak-webpack.git#master"
+  },
+  "dependencies": {
+    "antd": "^3.19.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
